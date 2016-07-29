@@ -8,15 +8,24 @@
 html,
 body {
 	margin: 0;
+	padding: 0px;
+}
+
+.instructions {
+	border: solid lightgray;
+	padding: 5px;
 }
 
 .container {
 	margin: 0 auto;
 	width: 1170px;
+	align-content: center;
 }
 
 .clear {
 	clear: both;
+	background-color: #87C9F2;
+	padding: 5px;
 }
 
 /***
@@ -41,3 +50,35 @@ body { width: 100%;}
 /********************************************
 * Your CSS rules go down here
 ********************************************/
+
+header {
+	width: 100%;
+	background-color: #83D2F2;
+	margin: 0px;
+	padding: 0px;
+}
+
+.pull-left {
+	border: 5px solid lightgray;
+	float: left;
+	margin: 0px 5px;
+}
+
+.pull-right {
+	border: 5px solid white;
+	float: right;
+	margin: 10px;
+}
+
+footer {
+	width: 100%;
+	background-color: black;
+	color: lightgray;
+	magin: 0px;
+	padding: 0px;
+}
+
+div {
+	padding: 0px;
+	margin: 20px 0px;
+}
