@@ -8,7 +8,7 @@
 html,
 body {
 	margin: 0;
-	padding: 0px;
+	padding: 0;
 }
 
 .instructions {
@@ -54,14 +54,14 @@ body { width: 100%;}
 header {
 	width: 100%;
 	background-color: #83D2F2;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 .pull-left {
 	border: 5px solid lightgray;
 	float: left;
-	margin: 0px 5px;
+	margin: 0 5px;
 }
 
 .pull-right {
@@ -74,11 +74,11 @@ footer {
 	width: 100%;
 	background-color: black;
 	color: lightgray;
-	magin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 div {
-	padding: 0px;
-	margin: 20px 0px;
+	padding: 0;
+	margin: 20px 0;
 }
