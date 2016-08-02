@@ -1,32 +1,31 @@
-/********************************************
+/*!********************************************
 * Custom CSS Styles for Basic Mockup Exercise
 *
 * Some CSS rules have been added for you below.
 * Edit and add CSS rules as you see fit! :D
-********************************************/
+********************************************!*/
 
 html,
 body {
 	margin: 0;
-	padding: 0;
 }
 
 .container {
 	margin: 0 auto;
 	width: 1170px;
-	align-content: center;
 }
 
 .clear {
 	clear: both;
 	background-color: #87C9F2;
-	padding: 5px;
+	margin: 0 0 25px 0;
+	padding: 10px 10px 5px 10px;
 }
 
-/***
+/*
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
-***/
+*/
 
 /*corrects IE min-height bug*/
 html { display: flex;}
@@ -42,28 +41,23 @@ body { width: 100%;}
 	flex: 1 0 auto;
 }
 
-/********************************************
+/*********************************************
 * Your CSS rules go down here
-********************************************/
+*********************************************/
 
 header {
-	width: 100%;
 	background-color: #83D2F2;
 	margin-top: 0;
 	padding: 0;
 }
 
-h1 .container {
-margin: 20px;
+h1 {
+	margin: 20px 0;
+	padding: 20px 0;
 }
 
 body {
 	font-family: sans-serif;
-}
-
-p{
-padding: 5px;
-	margin: 5px 0 5px 5px;
 }
 
 .instructions {
@@ -75,21 +69,20 @@ padding: 5px;
 .pull-left {
 	border: 5px solid lightgray;
 	float: left;
-	margin: 10px 10px 10px 0;
+	margin: 0 20px 5px 0;
 }
 
 .pull-right {
 	border: 5px solid white;
 	float: right;
-	margin: 5px 5px 10px 10px;
+	margin: 10px;
 }
 
 footer {
 	width: 100%;
 	background-color: black;
 	color: lightgray;
-	margin: 0;
-	padding: 25px;
+	padding: 10px 0;
 	font-style: italic;
 }
 
